@@ -9,7 +9,8 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "destination": "index.html"
   },
   "emulators": {
     "auth": {
