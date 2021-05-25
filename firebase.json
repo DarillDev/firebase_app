@@ -4,13 +4,12 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "dist",
+    "public": "firebase-app/dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "destination": "index.html"
+    ]
   },
   "emulators": {
     "auth": {
