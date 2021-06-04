@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  loymaxPublicAPI: 'https://slata-stg.loymax.tech/publicapi',
+  baseLoymaxAuthRedirectUri:
+    'https://kso-equipment.azurewebsites.net/api/loymax/code',
 };
 
 /*
